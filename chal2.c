@@ -2,10 +2,14 @@
 #include <stdlib.h>
 int main() {
 	
-   float temperature;
-   printf("Enter a Temperature : ");
-   scanf("%f" , &temperature );
-   printf("%f" , (temperature - 32)/1.8);
+   float c,f;
+   printf("Enter  c : ");
+   scanf("f" , &c );
+   
+//    F = (C*1.8)+32
+   f=(c * 1.8)+32;
+   
+   printf("  le resultat est : %f" ,f );
    
 	
 	return 0;
