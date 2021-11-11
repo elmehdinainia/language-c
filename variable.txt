@@ -1,4 +1,4 @@
-exercice 1 :
+_-----------------------------------------------------------------------------------exercice 1 :------------------------------------------------------------------------------
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,6 +22,7 @@ printf("votre nome %s,votre prenome %s,votre sexe %s,votre age %d,votre nume_tel
 return 0;
 
 }
+<<<<<<< HEAD
 exercice 5
 #include<stdio.h>
 #include<stdlib.h>
@@ -36,4 +37,61 @@ printf("%.2f metre = %.2f km ",metre,km);
 return 0;
 }
 
+=======
+-------------------------------------------------------------------------------exercice 2---------------------------------------------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	
+   float temperature;
+   printf("Enter a Temperature : ");
+   scanf("%f" , &temperature );
+   printf("%f" , (temperature - 32)/1.8);
+   
+	
+	return 0;
+}
+-------------------------------------------------------------------------------exercice 3--------------------------------------------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	
+   float distance;
+   printf("Enter a distance :");
+   scanf("%f" , &distance);
+   printf("Your distance in miles is : %.2f M" , distance*1000*1.609);
+   
+	return 0;
+}
+--------------------------------------------------------------------------------exercice 5--------------------------------------------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+main()
+{
+	float f , c;
+	printf("entrer fahranhet : ");
+	scanf("%f",&f);
+	c = f - 32 / 1.8 ;
+	printf(" resultqt %f \n",c);
+	if (c<0)
+	{
+		printf(" tres froid");
+	}
+		else if  (c>0  && c<10 )
+    {
+    	printf("froid");
+	}
+	 else if (c>10  && c<40 )
+	
+    {
+    	printf("chaud");
+	}
+	 else if(c>40)
+	{
+		printf("tres chaud");
+	}
+	
+	 
+}
+>>>>>>> b91c70879e83512caf26092675d5b802021dd658
 
