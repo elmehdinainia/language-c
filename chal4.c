@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 main(){
-float  meile,metre,km;
-printf("donner la valeur de meile : ");
-scanf("%f",&meile);
-km = meile/1.609;
-metre=km*1000;
-printf("%.2f metre = %.2f km ",metre,km);
+float  mile,metre,km;
+printf("donner la valeur de mile : ");
+scanf("%f",&mile);
+km = mile/1.609;
+metre=km/1000;
+printf(" metre = %.2f ",metre);
 
 return 0;
 }
