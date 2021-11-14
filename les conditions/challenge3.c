@@ -40,7 +40,7 @@ int main() {
     	}
     	default:
     		{
-    			printf(" non");
+    			printf(" ce caractaire n"est pas voyelle");
     			break;
 			}
 			
