@@ -8,18 +8,16 @@ int main(){
 	printf("donner une nombre : ");
 	scanf("%d",&nbr);
 	 
-	 if ( nbr<0)
+	 if ( nbr%==0)
 	 {
-	 	printf("le nombre est negatif");
+	 	printf("le nombre est paire");
 	 }
-    else if (nbr>0)
+         else
 	{
-		printf("le nombre est positf");
+		printf("le nombre est impaire");
 	}
-	else 
-    {
-    	printf("le nombre est null");
-	}
+	
+ 
     
 	return 0;
 }
